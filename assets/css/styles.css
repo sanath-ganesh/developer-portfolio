@@ -16,6 +16,7 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
+
 /* Variables end */
 
 html {
@@ -76,6 +77,7 @@ nav a {
   color: var(--primary-color);
   transition: var(--transition);
 }
+
 nav a:hover {
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
@@ -98,6 +100,7 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
+
 /* Navbar ends */
 
 /* Hero section */
@@ -105,6 +108,7 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
@@ -116,7 +120,7 @@ nav ul li {
 }
 
 .bio {
-  width: 25rem;
+  width: 75rem;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -130,6 +134,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
+
 /* Hero section ends */
 
 /* More about */
@@ -147,6 +152,51 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
 }
+
+.more-about .subsection {
+  margin-top: 2rem;
+  /* Adjust as needed */
+}
+
+.more-about h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.more-about h3 {
+  color: var(--accent-color);
+  /* Adjust color as needed */
+}
+
+.more-about strong {
+  font-weight: bold;
+}
+
+.more-about em {
+  font-style: italic;
+}
+
+/* Style for the timeline (if desired) */
+.more-about p strong {
+  display: inline-block;
+  width: 300px;
+  /* Adjust width as needed */
+}
+
+.more-about ul {
+  list-style-type: disc;
+  /* Change to 'none' if you want no bullet points */
+  padding-left: 1.5rem;
+  /* Adjust as needed */
+  margin-top: 1rem;
+  /* Adjust as needed */
+}
+
+.more-about li {
+  margin-bottom: 0.5rem;
+  /* Adjust as needed */
+}
+
 /* More about ends */
 
 /* Skills section */
@@ -169,6 +219,7 @@ nav ul li {
   width: 11.875rem;
   height: 11.25rem;
 }
+
 /* Skills section ends */
 
 /* Projects section */
@@ -276,6 +327,7 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+
 /* Contacts section ends */
 
 /* Social buttons */
@@ -291,6 +343,7 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
+
 /* Social button ends */
 
 /* Scroll to top button */
@@ -305,6 +358,7 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
+
 /* Scroll to top button ends */
 
 /* Footer section */
@@ -314,6 +368,7 @@ footer {
   text-align: center;
   margin: 2rem 0 0;
 }
+
 /* Footer section ends */
 
 /* General (utilities) */
@@ -338,6 +393,7 @@ footer {
   nav {
     padding: 1.5rem 1rem;
   }
+
   nav ul {
     position: fixed;
     background-color: var(--bg-color);
